@@ -1,0 +1,97 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.classe-image {
+  width: 600px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: -50px;
+}
+.classe-image img {
+  width: 100%;
+  margin-top: 10px;
+  display: block;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form .image {
+  margin-top: -200px;
+}
+
+.form .username {
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding: 3px 0;
+}
+.form .username img {
+  width: 20px;
+}
+.form .username input {
+  background-color: #0e71b8;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+.form .username input::placeholder {
+  color: white;
+  opacity: 0.8;
+}
+.form .password {
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 3px 0;
+  margin-bottom: 15px;
+}
+.form .password img {
+  width: 20px;
+}
+.form .password input {
+  background-color: #0e71b8;
+  color: white;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+}
+.form .password input::placeholder {
+  color: white;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+label {
+  color: white;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+.remember {
+  margin-bottom: 50px;
+}
+.submit {
+  outline: none;
+  border: none;
+  padding: 5px 20px;
+  background-color: white;
+  color: #0e71b8;
+  letter-spacing: 1px;
+  text-decoration: none;
+  width: 130px;
+  font-size: 1.2rem;
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+}
